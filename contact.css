@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EAEFEF;
+}
+
+.con{
+  display: flex;
+  flex-direction: column;
+  align-items: center;         
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+   font-family: "Caveat", cursive;
+}
+
+.tex {
+  font-family: 'Caveat', cursive;
+  font-size: 1.2rem;
+  color: #333;
+  display: block;
+  text-align: center;
+}
+
+input[type="email"] {
+  width: 100%;
+  max-width: 350px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #B8CFCE;
+  border-radius: 16px;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  max-width: 400px;
+  height: 120px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;               
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  resize: none;             
+  text-align: center;
+}
+input[type="text"]{
+   width: 100%;
+  max-width: 350px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #B8CFCE;
+  border-radius: 16px;
+  text-align: center;
+}
